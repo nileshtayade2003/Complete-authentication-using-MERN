@@ -11,7 +11,7 @@ const FloatingShape = ({color,size,top,left,delay}) => {
         rotate:[0,360]
       }}
       transition={{duration:20,ease:"linear",repeat:Infinity,delay:delay}}
-      aria-hidden:true
+      aria-hidden="true"
     />
   )
 }
